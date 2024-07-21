@@ -1,0 +1,60 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Welcome to Simply Blog",
+      "body": "Hello this is my first blog project I'm creating. This project purpose is to enhance my learning in react.js",
+      "author": "Ellusion",
+      "date": "June 2, 2024"
+    },
+    {
+      "id": "2",
+      "title": "Struggling With Design",
+      "body": "<p>I'm always struggling with design when it comes to any form of creation. I can't seem to get any of it right in my head even though I do understand what I want out of it. Thus, it usually holds me up when I want to start a project because I keep thinking of the design.</p><br><p>So, with this project and many other future projects. I think I'm going to keep it real simple with the design. As long it looks good enough its good for me. 😊</p>",
+      "author": "Ellusion",
+      "date": "June 4, 2024"
+    },
+    {
+      "id": "3",
+      "title": "Stop Procrasination",
+      "body": "<p>Procrastination is something everyone has at some point. I'm also struggling with it. Lots of minor factors in life tends to give me a 'valid' excuse which is just bullshit. Because, deep down for me, I know why I'm putting it off whenever a chance appear. </p>",
+      "author": "Ellusion",
+      "date": "June 5, 2024"
+    },
+    {
+      "id": "4",
+      "title": "Forming Good Habits",
+      "body": "<p>Have you read the book: Atomic Habits? Its a really good read. I enjoy it. I am working on forming new habits and hopping I will have it stick with me for life. </p><br><p>New habits to form: </p><ul class=\"list-disc pl-5\"><li><p>Doing morning stretching before going to work</p></li><li><p>Work on my personal projects at least an hour every day after dinner. </p></li></ul><br><p>I will only be having two habits for now, it will be easier to stick to it and stay focus. </p><br><p>Alright, off to work on this blog post. </p>",
+      "author": "Ellusion",
+      "date": "June 7, 2024"
+    },
+    {
+      "id": "5",
+      "title": "Simply Blog Progression Update",
+      "body": "<p>Alright, updates added to Simply Blog and I'm going to talk a little about it. </p><br><p>As you notice. This blog post now has a \"Write\" button on the top-right of the screen. And it now allows you to write a blog post!! I've spent about 2 days plus getting the rich text editor right. It was a great learning experience. It's amazing that I am able to write blog post straight from this project. All those post before it were written inside a json file for a dummy template for my to have some data to work with. With this new text editor template. I am able to add new post into it!! </p><br><p>It's so exciting! 😁</p>",
+      "author": "Ellusion",
+      "date": "June 8, 2024"
+    },
+    {
+      "id": "1721053673443",
+      "title": "Simply Blog Update 2",
+      "body": "<p>It's been a week since my previous post. I was down due to Covid 🤒. I'm all good now. </p><br><p>I had MC (sick leave) for a week and while I was getting better mid-way of the week, I decided to spend the time implementing an \"Update\" function to the post. So, right now this is part of a test. This blog post was something else, and now I'm testing the update function to see if everything is good to go.</p><br><p>So far, it's working well. </p><br><p>Once the rich text editor has all the function done right during the \"add\" blog function, importing the current blog post content back into the rich text editor was simpler. </p><br><h3>Problem faced</h3><p>Yup problems, definitely had some. And that would be data! I had some trouble getting the updated content saved into the JSON file. And yes, you might be thinking <em>\"well didn't you had the add function done right?\"</em> Yup. but it was a bit tricky.</p><br><p>I was trying to use the react-router's loader and action feature. And well also the form, I was using react-hook-form for me to learn little about it and I was having some hard time getting both to work properly. But after much googling and messing around the code. I got it work without the \"action\" feature from react-router. I'm not sure if its the correct way to implement but it works and I don't see any bugs yet. So, its good to go. 👌</p><br><p>Anyways, to cut it short. I made it work !! Hahaha. I hope you enjoy your day.</p>",
+      "author": "Ellusion",
+      "date": "July 15, 2024"
+    },
+    {
+      "id": "1721523945723",
+      "title": "Simply Blog Update 3: Delete Function",
+      "body": "<p>Hello everyone and welcome back to a new blog post update!!</p><br><p>Today topic as per the title. I have successfully added a delete post function into the blog last night. So, now you are able to delete a post. And yup, the delete is permanent and there will be no way to recover accidental delete. My mom did point out this issue, but I'm not going to implement a recovery option. </p><br><p>The delete function will popup a dialog box and this will shift the focus to the popup. Giving you a confirmation box to ensure you really want to delete the post. Once you click confirm, the post will then officially be deleted and you will be redirected to the Archives page.</p><br><p>Adding the new dialog modal is something new to me and I'm using the &lt;dialog&gt; html element, no libraries. My usage with it is pretty simple for this blog project and it works well. I like how it is. It's simple and clear. </p><br><p>Alright that will be all for today. See ya 👋</p>",
+      "author": "Ellusion",
+      "date": "July 21, 2024"
+    },
+    {
+      "id": "1721526812952",
+      "title": "Finale: 404 Page Not Found",
+      "body": "<p>Alright, congratulation!! I've completed this Simply Blog project! I had 404 error page as the last item to be implemented. And now the blog project is finished. </p><br><p>It has been an enjoyable journey working on this project. I really learn a lot. Although I have no idea if what I've implemented as in the way I code is actually a good practice or not, but it works well in this project. Still a job is done. </p><br><p>There are still some small elements I could still add into this blog project like an user authentication, but I think I'm going to leave it as it is, as this project's main goal is for me to learn a bit about using JSON and writing a CRUD project for me to implement my learning of react into it. So, authentication will be used for my other project as another learning point. </p><br><p>It's been so much fun, oh and who knows I might actually use this as my actual blog. Hahaha, anyways, thanks for reading and hope you have a nice day. </p><br><p>See ya. 😁</p>",
+      "author": "Ellusion",
+      "date": "July 21, 2024"
+    }
+  ]
+}
