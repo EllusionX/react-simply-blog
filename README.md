@@ -1,7 +1,7 @@
 # React Simple Blog Project (Simply Blog)
 
 This is a simple blog project made using React.js
-![alt text](image.png)
+![simply blog](/public/image.png)
 
 ## Usage
 
